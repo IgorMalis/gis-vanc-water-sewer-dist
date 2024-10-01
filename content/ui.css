@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoMd";
+  src: url(fonts/Roboto-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto_Condensed";
+  src: url(fonts/RobotoCondensed-VariableFont_wght.ttf) format("truetype");
+}
+
+.colour1 {
+  background-color: #0F7174;
+}
+
+.colour2 {
+  background-color: #CB1550;
+}
+
+.colour3 {
+  background-color: #7B506E;
+}
+
+.colour4 {
+  background-color: #B23C86;
+}
+
+.colour5 {
+  background-color: #41521E;
+}
+
+.colour6 {
+  background-color: #0E547A;
+}
+
+.colour7 {
+  background-color: #E06C1F;
+}
+
+.colour8 {
+  background-color: #3590B7;
+}
+
+.colour9 {
+  background-color: #88A512;
+}
+
+#map-container {
+  height: 100vh;
+  padding-top: 54px;
+  box-sizing: border-box;
+}
+
+#map {
+  height: 100%;
+}
+
+#logo {
+  height: 36px; 
+  position: absolute;
+  top: 9px;
+  left: 3px;
+}
+
+body {
+  margin: 0px;
+}
+
+#settings-cont {
+  z-index: 500;
+  position: absolute;
+  top: 7px;
+  right: 3px;
+  border: 1px solid #004990;
+  width: 222px;
+  //height: 36px;
+  border-radius: 5px;
+  box-sizing: content-box;
+  background-color: #7AD6F4;
+  transition: max-height 0.444s ease-in-out;
+  max-height: 36px;
+  overflow: hidden;
+}
+
+.settings-cont-exp {
+  max-height: 300px !important;
+}
+
+#settings-top {
+  cursor: pointer;
+}
+
+#settings-top:hover {
+  background: rgba(255,255,255,0.11);
+}
+
+#settings-header {
+  font-size: 16px;
+  font-family: RobotoMd;
+  font-weight: 400;
+  line-height: 36px;
+  color: #004990;
+  padding-left: 5px;
+  margin-left: 12px;
+}
+
+#settings-arrow {
+  color: #004990;
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  font-size: 13px;
+  transition: transform 0.444s ease-in-out;
+  transform: rotate(0deg);
+}
+
+#settings-arrow.exp {
+  transform: rotate(180deg);
+}
+
+.settings-top-hdr {
+  font-family: RobotoMd;
+  font-size: 14px;
+  margin-left: 16px;
+}
+
+.settings-top-hdr span {
+  border-bottom: 1px solid #004990;
+}
+
+.settings-opt {
+  position: relative;
+}
+
+.settings-opt label {
+  font-family: Roboto_Condensed;
+  font-size: 14px;
+}
+
+.settings-opt input {
+  margin-left: 16px;
+}
+
+.settings-opt:hover {
+  background: rgba(255,255,255,0.11);
+}
+
+.settings-opt.last {
+  margin-bottom: 8px;
+}
+
+.settings-col {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 4px;
+  right: 14px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.tp-label {
+  font-style: italic;
+  min-width: 70px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 2px;
+}
+
+.tp-header {
+  width: 100%;
+  display: block;
+  font-weight: 600;
+  text-align: center;
+}
